@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 4ceae809cb2c97541b264c7ef2c517cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2520550816339232456
+    second: alien-enemy-2-flying-spritesheet_0
+  - first:
+      213: 6985755303725077001
+    second: alien-enemy-2-flying-spritesheet_1
+  - first:
+      213: -4185936558001446474
+    second: alien-enemy-2-flying-spritesheet_2
+  - first:
+      213: -2449562526681839887
+    second: alien-enemy-2-flying-spritesheet_3
+  - first:
+      213: 1773045359293431299
+    second: alien-enemy-2-flying-spritesheet_4
+  - first:
+      213: 5220392358068904188
+    second: alien-enemy-2-flying-spritesheet_5
+  - first:
+      213: 1430783298934935514
+    second: alien-enemy-2-flying-spritesheet_6
+  - first:
+      213: 6589451585159446677
+    second: alien-enemy-2-flying-spritesheet_7
+  - first:
+      213: 4237673912663244113
+    second: alien-enemy-2-flying-spritesheet_8
+  - first:
+      213: -5733131979387265748
+    second: alien-enemy-2-flying-spritesheet_9
+  - first:
+      213: 1185969898689430825
+    second: alien-enemy-2-flying-spritesheet_10
+  - first:
+      213: -5952363396430769720
+    second: alien-enemy-2-flying-spritesheet_11
+  - first:
+      213: -5063141060803812982
+    second: alien-enemy-2-flying-spritesheet_12
+  - first:
+      213: 2856580719729747536
+    second: alien-enemy-2-flying-spritesheet_13
+  - first:
+      213: -2700278834371021380
+    second: alien-enemy-2-flying-spritesheet_14
+  - first:
+      213: 373575355047453396
+    second: alien-enemy-2-flying-spritesheet_15
+  - first:
+      213: 5542264045431841777
+    second: alien-enemy-2-flying-spritesheet_16
+  - first:
+      213: 3102441252470745685
+    second: alien-enemy-2-flying-spritesheet_17
+  - first:
+      213: -1418886738299589896
+    second: alien-enemy-2-flying-spritesheet_18
+  - first:
+      213: 5308500512029261488
+    second: alien-enemy-2-flying-spritesheet_19
+  - first:
+      213: 3602779369195023112
+    second: alien-enemy-2-flying-spritesheet_20
+  - first:
+      213: -3287621125197913157
+    second: alien-enemy-2-flying-spritesheet_21
+  - first:
+      213: 7560178099760506509
+    second: alien-enemy-2-flying-spritesheet_22
+  - first:
+      213: -3750537421478653155
+    second: alien-enemy-2-flying-spritesheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83977c11364350dd0800000000000000
+      internalID: -2520550816339232456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 33
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9029556cf6362f060800000000000000
+      internalID: 6985755303725077001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 8
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1a008e0e098e5c0800000000000000
+      internalID: -4185936558001446474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 39
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6450e3cd7610ed0800000000000000
+      internalID: -2449562526681839887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 32
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ef65b3c5f1b9810800000000000000
+      internalID: 1773045359293431299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 38
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf06cdad03f827840800000000000000
+      internalID: 5220392358068904188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 7
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf049b64d92bd310800000000000000
+      internalID: 1430783298934935514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 31
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5904016ed4f627b50800000000000000
+      internalID: 6589451585159446677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 7
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d7b3ea8fd3fca30800000000000000
+      internalID: 4237673912663244113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 37
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d903617d2df60b0800000000000000
+      internalID: -5733131979387265748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 30
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92580bdd659657010800000000000000
+      internalID: 1185969898689430825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 36
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1d4b52705f46da0800000000000000
+      internalID: -5952363396430769720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 5
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a812817e70c1cb9b0800000000000000
+      internalID: -5063141060803812982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 30
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056a8bf970d94a720800000000000000
+      internalID: 2856580719729747536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 5
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb53fc2f4bea68ad0800000000000000
+      internalID: -2700278834371021380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 36
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2a17e5ec43f2500800000000000000
+      internalID: 373575355047453396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 29
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3626ff8c31aec40800000000000000
+      internalID: 5542264045431841777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 35
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a6906b1e51e0b20800000000000000
+      internalID: 3102441252470745685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 7
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fae323770a1f4ce0800000000000000
+      internalID: -1418886738299589896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 31
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bebb7d07159ba940800000000000000
+      internalID: 5308500512029261488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 7
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ba9f87fb4aff130800000000000000
+      internalID: 3602779369195023112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 37
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3228451060062d0800000000000000
+      internalID: -3287621125197913157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 30
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86a9ea1de52be860800000000000000
+      internalID: 7560178099760506509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien-enemy-2-flying-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 36
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1394fb161a63fbc0800000000000000
+      internalID: -3750537421478653155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      alien-enemy-2-flying-spritesheet_0: -2520550816339232456
+      alien-enemy-2-flying-spritesheet_1: 6985755303725077001
+      alien-enemy-2-flying-spritesheet_10: 1185969898689430825
+      alien-enemy-2-flying-spritesheet_11: -5952363396430769720
+      alien-enemy-2-flying-spritesheet_12: -5063141060803812982
+      alien-enemy-2-flying-spritesheet_13: 2856580719729747536
+      alien-enemy-2-flying-spritesheet_14: -2700278834371021380
+      alien-enemy-2-flying-spritesheet_15: 373575355047453396
+      alien-enemy-2-flying-spritesheet_16: 5542264045431841777
+      alien-enemy-2-flying-spritesheet_17: 3102441252470745685
+      alien-enemy-2-flying-spritesheet_18: -1418886738299589896
+      alien-enemy-2-flying-spritesheet_19: 5308500512029261488
+      alien-enemy-2-flying-spritesheet_2: -4185936558001446474
+      alien-enemy-2-flying-spritesheet_20: 3602779369195023112
+      alien-enemy-2-flying-spritesheet_21: -3287621125197913157
+      alien-enemy-2-flying-spritesheet_22: 7560178099760506509
+      alien-enemy-2-flying-spritesheet_23: -3750537421478653155
+      alien-enemy-2-flying-spritesheet_3: -2449562526681839887
+      alien-enemy-2-flying-spritesheet_4: 1773045359293431299
+      alien-enemy-2-flying-spritesheet_5: 5220392358068904188
+      alien-enemy-2-flying-spritesheet_6: 1430783298934935514
+      alien-enemy-2-flying-spritesheet_7: 6589451585159446677
+      alien-enemy-2-flying-spritesheet_8: 4237673912663244113
+      alien-enemy-2-flying-spritesheet_9: -5733131979387265748
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
