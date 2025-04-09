@@ -14,9 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Speed>k__BackingField: 6.22
   <JumpVelocity>k__BackingField: 5
-  <JumpCount>k__BackingField: 2
-  GroundCheckDistance: 0.19
+  <JumpCount>k__BackingField: 1
+  <CoyoteTime>k__BackingField: 0.2
+  GroundCheckDistance: 0.1
   GroundCheckOffset: {x: 0, y: 0}
   GroundLayer:
     serializedVersion: 2
     m_Bits: 8
+  WallCheckDistance: 0.5
+  WallCheckOffset: {x: 0, y: 0}
+  WallLayer:
+    serializedVersion: 2
+    m_Bits: 64
