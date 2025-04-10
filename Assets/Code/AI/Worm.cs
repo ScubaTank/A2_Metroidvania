@@ -32,7 +32,6 @@ public class Worm : MonoBehaviour
     {
         if(CheckEdge()){
             _movingRight = !_movingRight;
-            Debug.Log("worm switched dir!");
         }
 
         if(_movingRight){

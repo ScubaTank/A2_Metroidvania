@@ -27,4 +27,18 @@ public class MovePlatform : MonoBehaviour
         }
 
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.name == "Player"){
+            collision.gameObject.transform.parent = gameObject.transform; //make it so player sticks to platform.
+        }
+    }
+
+    void OnCollisionExit(Collision collision)
+    {
+        if(collision.gameObject.name == "Player"){
+            collision.gameObject.transform.parent = null; //unstick
+        }
+    }
 }

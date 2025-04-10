@@ -26,7 +26,7 @@ public class FallPlatform : MonoBehaviour
         }    
     }
 
-        private IEnumerator Despawn(){
+    private IEnumerator Despawn(){
          yield return new WaitForSeconds(_despawnTime);
          Destroy(gameObject);
     }

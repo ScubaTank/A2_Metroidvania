@@ -1,8 +1,10 @@
 using System;
 using System.Numerics;
+using TMPro;
 using UnityEditor.Callbacks;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 using Vector2 = UnityEngine.Vector2;
 
 
@@ -14,7 +16,13 @@ public class PlayerController : MonoBehaviour
         [SerializeField] private SpriteRenderer playerVisual;
         [SerializeField] private Rigidbody2D playerRb;
 
+        [Header("UI Management")]
+        [SerializeField] private UIManager _uiManager;
         
+        private int _health = 3;
+        private int _score = 0;
+
+
         private float horizontalInput;
         private int _direction = 1;
         public bool _isGround { get; private set; }= true;
@@ -24,8 +32,13 @@ public class PlayerController : MonoBehaviour
 
         private int _jumpsRemaining = 0;
         private float _coyoteTimeRemaining = 0;
-        
-        private void OnEnable()
+
+    void Awake()
+    {
+        _uiManager.UpdateUI(_health, _score);
+    }
+
+    private void OnEnable()
         {
             inputManager.OnMove += SetHorizontal;
             inputManager.OnJump += HandleJump;
@@ -106,4 +119,22 @@ public class PlayerController : MonoBehaviour
                 _coyoteTimeRemaining = Stats.CoyoteTime;
             }
         }
+
+        public void GetCollectible(int value){
+            _score += value;
+            _uiManager.UpdateUI(_health, _score);
+        }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Enemy"){
+            _health -= 1;
+            _uiManager.UpdateUI(_health, _score);
+        }
+
+        if(_health <= 0){
+            _health = 0; //incase you're playing in the editor.
+            Application.Quit();
+        }
     }
+}

@@ -75,6 +75,17 @@ public class MultiMovePlatform : MonoBehaviour
     {
         if(collision.gameObject.name == "Player" && !_activated){
             _activated = true;
-        }    
+        }
+
+        if(collision.gameObject.name == "Player"){
+            collision.gameObject.transform.parent = gameObject.transform; //make it so player sticks to platform.
+        }
+    }
+
+    void OnCollisionExit(Collision collision)
+    {
+        if(collision.gameObject.name == "Player"){
+            collision.gameObject.transform.parent = null; //unstick
+        }
     }
 }
