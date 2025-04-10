@@ -16,9 +16,4 @@ using UnityEngine.Serialization;
         public Vector2 GroundCheckOffset;
         public LayerMask GroundLayer;
 
-
-        [Header("Wall Check")]
-        public float WallCheckDistance = 0.1f;
-        public Vector2 WallCheckOffset;
-        public LayerMask WallLayer;
     }

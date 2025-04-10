@@ -21,8 +21,3 @@ MonoBehaviour:
   GroundLayer:
     serializedVersion: 2
     m_Bits: 8
-  WallCheckDistance: 0.5
-  WallCheckOffset: {x: 0, y: 0}
-  WallLayer:
-    serializedVersion: 2
-    m_Bits: 64
